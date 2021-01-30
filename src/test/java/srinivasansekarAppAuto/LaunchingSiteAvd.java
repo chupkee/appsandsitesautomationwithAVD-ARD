@@ -12,9 +12,9 @@ public class LaunchingSiteAvd
 	public static void main(String[] args) throws Exception
 	{
 		//Launch appium server programmatically
-		Runtime.getRuntime().exec("cmd.exe /c start cmd.exe /k \"appium -a 0.0.0.0 -p 4724\"");
+		Runtime.getRuntime().exec("cmd.exe /c start cmd.exe /k \"appium -a 0.0.0.0 -p 4723\"");
 		//get address of appium server
-		URL u=new URL("http://0.0.0.0:4724/wd/hub");
+		URL u=new URL("http://0.0.0.0:4723/wd/hub");
 		//Desired Capabilities
 		DesiredCapabilities dc=new DesiredCapabilities();
 		dc.setCapability(CapabilityType.BROWSER_NAME,"chrome");
