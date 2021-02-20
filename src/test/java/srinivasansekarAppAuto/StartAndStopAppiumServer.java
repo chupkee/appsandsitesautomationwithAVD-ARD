@@ -12,5 +12,7 @@ public class StartAndStopAppiumServer
 		//Stop appium server programmatically
 		Runtime.getRuntime().exec("taskkill /F /IM node.exe");
 		Runtime.getRuntime().exec("taskkill /F /IM cmd.exe");	
+		System.out.println("I am ready");
 	}
 }
+ 
